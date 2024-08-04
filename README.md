@@ -55,7 +55,7 @@ For secure communication, it is necessary to edit the components.yaml file. Sele
 - --kubelet-insecure-tls
 ```
 
-After the modification, the file will looks like as following:
+After the modification, the file will look like as following:
 
 ```console
 spec:
@@ -88,7 +88,7 @@ $ kubectl top pods
 $ kubectl top nodes
 ```
 
-If the value metrics, under the current, is a number and not unkown, so it is correct.
+If the value metrics, under the current, is a number and not unknown, so it is correct.
 
 ### 1.2 Starting minikube and enable metrics-server <a name="1.2"></a>
 
@@ -218,7 +218,7 @@ Run the below command to expose the Nginx deployment as a LoadBalancer service.
 $ kubectl expose deployment nginx-deployment --name=nginx-service --port=80 --target-port=80 --type=LoadBalancer
 ```
 
-To see information about the Nginx service with LoadBalancer, execte the commando below:
+To see information about the Nginx service with LoadBalancer, execute the command below:
 
 ```console
 $ kubectl get service nginx-service
